@@ -71,12 +71,12 @@ function App(): JSX.Element {
       <ScrollView
         contentInsetAdjustmentBehavior="automatic"
         style={backgroundStyle}>
-        <Header />
+        
         <View
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}>
-          <Section title="Step One">
+          <Section title="step one">
             Edit <Text style={styles.highlight}>App.tsx</Text> to change this
             screen and then come back to see your edits.
           </Section>
@@ -97,9 +97,11 @@ function App(): JSX.Element {
 }
 
 const styles = StyleSheet.create({
+
   sectionContainer: {
     marginTop: 32,
     paddingHorizontal: 24,
+    
   },
   sectionTitle: {
     fontSize: 24,
