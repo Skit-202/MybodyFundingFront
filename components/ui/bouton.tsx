@@ -1,15 +1,18 @@
 
 import React from "react";
 import { TouchableOpacity, Text, StyleSheet } from "react-native";
+import App from "../App";
 
-// Définir les props du bouton
+
 interface Props {
   title: string;
   color: string;
   onPress: () => void;
 }
 
-// Créer le composant du bouton
+
+
+
 const CustomButton: React.FC<Props> = ({ title, color, onPress }) => {
   return (
     <TouchableOpacity style={[styles.button, { backgroundColor: color }]} onPress={onPress}>
@@ -18,7 +21,7 @@ const CustomButton: React.FC<Props> = ({ title, color, onPress }) => {
   );
 };
 
-// Définir les styles du bouton
+
 const styles = StyleSheet.create({
   button: {
     padding: 10,

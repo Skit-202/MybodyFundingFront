@@ -7,6 +7,7 @@ import { StyleSheet , ColorSchemeName, useColorScheme } from "react-native";
 import { Colors } from "react-native/Libraries/NewAppScreen";
 
 
+
 export default function identification() {
     const isDarkMode = useColorScheme() === 'dark';
     return(
@@ -17,6 +18,7 @@ export default function identification() {
             color: isDarkMode ? Colors.white : Colors.black,
           },
         ]}>Votre identité a bien été confirmer</Text>
+
 
 
         <CustomButton title="" color="blue" onPress={() => Alert } />
