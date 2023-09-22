@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Platform, StyleSheet, View, Text, Image } from 'react-native';
+import { StyleSheet, View, Text, Image } from 'react-native';
 
 
 export default class App extends Component {
@@ -11,7 +11,7 @@ export default class App extends Component {
         <Text style={[styles.setFontSize,styles.setColorWhite]}> VOTRE IDENTITE </Text>
         <Text style={[styles.setFontSize,styles.setColorWhite]}>  A BIEN ETE </Text>
         <Text style={[styles.setFontSize,styles.setColorWhite]}> COMFIRMER</Text>
-
+        
       </View>
     );
   }
