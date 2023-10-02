@@ -6,10 +6,11 @@ export default class Identification extends Component {
  render(){
 
     return (
-    <View>
+    <View style={styles.container}>
       <Text style={[styles.setFontSize,styles.setColorWhite]}> VOTRE IDENTITE </Text>
         <Text style={[styles.setFontSize,styles.setColorWhite]}>  A BIEN ETE </Text>
         <Text style={[styles.setFontSize,styles.setColorWhite]}> COMFIRMER</Text>
+        
     </View>
   )
   }
@@ -21,7 +22,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: "royalblue",
+    backgroundColor: "#285A84",
   },
   setFontSize: {
     fontSize: 27,

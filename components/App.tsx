@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { StyleSheet, View, Text, Image } from 'react-native';
-
+import Identification from './pages/identifaction';
+import Inscription from './pages/inscription';
 
 export default class App extends Component {
 
@@ -8,11 +9,11 @@ export default class App extends Component {
 
     return (
       <View style={styles.container}>
-        <Text style={[styles.setFontSize,styles.setColorWhite]}> VOTRE IDENTITE </Text>
-        <Text style={[styles.setFontSize,styles.setColorWhite]}>  A BIEN ETE </Text>
-        <Text style={[styles.setFontSize,styles.setColorWhite]}> COMFIRMER</Text>
-        
+           
+           <Inscription/>
+           
       </View>
+      
     );
   }
 }
@@ -23,7 +24,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: "royalblue",
+    backgroundColor: "#285A84",
   },
   setFontSize: {
     fontSize: 27,
