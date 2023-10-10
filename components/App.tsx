@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { StyleSheet, View, Text, Image } from 'react-native';
 import Identification from './pages/identifaction';
 import Inscription from './pages/inscription';
+import Inscription2 from './pages/inscription2';
 
 export default class App extends Component {
 
@@ -10,7 +11,7 @@ export default class App extends Component {
     return (
       <View style={styles.container}>
            
-           <Inscription/>
+           <Inscription2/>
            
       </View>
       
